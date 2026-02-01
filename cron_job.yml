@@ -3,7 +3,7 @@ name: Run Script Every 15 Minutes
 on:
   schedule:
     # ใช้ Cron Syntax เพื่อกำหนดเวลาให้รันทุก 15 นาที
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch: # ช่วยให้กดรันเอง (Manual) เพื่อทดสอบได้
 
 jobs:
